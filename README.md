@@ -12,14 +12,6 @@ What is the result of each of the following:
 
 Modify:
 
-    1
-    2
-    3
-    4
-    5
-
-    	
-
     prefixes = "JKLMNOPQ"
     suffix = "ack"
 
@@ -29,15 +21,6 @@ Modify:
 so that Ouack and Quack are spelled correctly.
 
 Encapsulate
-
-    1
-    2
-    3
-    4
-    5
-    6
-
-    	
 
     fruit = "banana"
     count = 0
@@ -75,12 +58,6 @@ Print a neat looking multiplication table like this:
 
 Write a function that reverses its string argument, and satisfies these tests:
 
-    1
-    2
-    3
-    4
-
-    	
 
     test(reverse("happy") == "yppah")
     test(reverse("Python") == "nohtyP")
@@ -89,12 +66,6 @@ Write a function that reverses its string argument, and satisfies these tests:
 
 Write a function that mirrors its argument:
 
-    1
-    2
-    3
-    4
-
-    	
 
     test(mirror("good") == "gooddoog")
     test(mirror("Python") == "PythonnohtyP")
@@ -103,14 +74,6 @@ Write a function that mirrors its argument:
 
 Write a function that removes all occurrences of a given letter from a string:
 
-    1
-    2
-    3
-    4
-    5
-    6
-
-    	
 
     test(remove_letter("a", "apple") == "pple")
     test(remove_letter("a", "banana") == "bnn")
@@ -121,15 +84,6 @@ Write a function that removes all occurrences of a given letter from a string:
 
 Write a function that recognizes palindromes. (Hint: use your reverse function to make this easy!):
 
-    1
-    2
-    3
-    4
-    5
-    6
-    7
-
-    	
 
     test(is_palindrome("abba"))
     test(not is_palindrome("abab"))
@@ -141,14 +95,7 @@ Write a function that recognizes palindromes. (Hint: use your reverse function t
 
 Write a function that counts how many times a substring occurs in a string:
 
-    1
-    2
-    3
-    4
-    5
-    6
-
-    	
+  
 
     test(count("is", "Mississippi") == 2)
     test(count("an", "banana") == 2)
@@ -159,13 +106,7 @@ Write a function that counts how many times a substring occurs in a string:
 
 Write a function that removes the first occurrence of a string from another string:
 
-    1
-    2
-    3
-    4
-
-    	
-
+   
     test(remove("an", "banana") == "bana")
     test(remove("cyc", "bicycle") == "bile")
     test(remove("iss", "Mississippi") == "Missippi")
@@ -173,13 +114,7 @@ Write a function that removes the first occurrence of a string from another stri
 
 Write a function that removes all occurrences of a string from another string:
 
-    1
-    2
-    3
-    4
-
-    	
-
+   
     test(remove_all("an", "banana") == "ba")
     test(remove_all("cyc", "bicycle") == "bile")
     test(remove_all("iss", "Mississippi") == "Mippi")
