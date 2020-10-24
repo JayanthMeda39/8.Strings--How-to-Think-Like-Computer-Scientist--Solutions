@@ -1,3 +1,5 @@
+8.Strings--How to think Like Computer Scientist--Solved
+
 What is the result of each of the following:
 
     >>> "Python"[1]
